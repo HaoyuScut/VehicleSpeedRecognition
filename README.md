@@ -8,9 +8,9 @@ Vehicle speed recognition and crash prediction based on virtual coil method
 觉得有帮助可以点下Star
 
 ## 最终效果图
-![](E:\Pattern_Recognition\202121018517-王浩宇_第四次模式识别实践\VehicleSpeedRecognition-master\Process_files\result1.png)
-![](E:\Pattern_Recognition\202121018517-王浩宇_第四次模式识别实践\VehicleSpeedRecognition-master\Process_files\result2.png)
-![](E:\Pattern_Recognition\202121018517-王浩宇_第四次模式识别实践\VehicleSpeedRecognition-master\Process_files\result3.png)
+![img](https://github.com/HaoyuScut/VehicleSpeedRecognition/blob/master/Process_files/result1.png)
+![img](https://github.com/HaoyuScut/VehicleSpeedRecognition/blob/master/Process_files/result2.png)
+![img](https://github.com/HaoyuScut/VehicleSpeedRecognition/blob/master/Process_files/result3.png)
 
 ## 设计思路
 项目的编程环境为python3.8，编译器使用pycharm x64，视频序列4k60帧每秒。项目采用帧差法识别车辆、虚拟线圈法估算车速，取线圈内平均灰度值相对于没有车辆的线圈内平均灰度值的变化作为对象特征，当差值的绝对值大于某一阈值时，判断有汽车通过线圈。
@@ -20,7 +20,7 @@ Vehicle speed recognition and crash prediction based on virtual coil method
 直接运行，请运行main.py，要求有opencv库
 
 ## 基于虚拟线圈的车速检测算法
-![](E:\Pattern_Recognition\202121018517-王浩宇_第四次模式识别实践\VehicleSpeedRecognition-master\Process_files\result.png)
+![img](https://github.com/HaoyuScut/VehicleSpeedRecognition/blob/master/Process_files/result.png)
 
 ## 总结
 三辆车实际撞线时间均略小于预计撞线时间，对此进行分析，有以下几种可能性：
